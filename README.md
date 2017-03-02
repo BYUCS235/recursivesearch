@@ -55,4 +55,4 @@ int binary_search(const std::vector<Item_Type>& items,
   }
 }
 ```
-Notice that we are creating a template function that will work on any type that implements the "==" operator.  Templates can apply to functions, not just classes.
+Notice that we are creating a template function that will work on any type that implements the "==" and "<" operators.  Templates can apply to functions, not just classes.
